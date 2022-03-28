@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(rgb(47, 150, 163), rgb(48, 62, 143));
+  color: white;
+  font-family: sans-serif;
+}
+
+.location {
+  height: 30vh;
+  width: 50%;
+  display: flex;
+}
+
+.degree {
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.temp , .degree span { 
+    display: flex;
+
+}
+span { 
+    font-size: 20px;
+    margin: 10px;
+}
